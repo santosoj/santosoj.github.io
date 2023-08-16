@@ -23,6 +23,8 @@
 
 ## Test results
 
+### Chrome
+
 ```yaml
 "Access-Control-Allow-Origin set to script domain | crossorigin=anon..
   Script fails to load with CORS error.
