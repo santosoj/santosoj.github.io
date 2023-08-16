@@ -1,1 +1,4 @@
-console.log('hello from app.js')
+function foo() {
+    console.log('foo()')
+    bar()
+}
