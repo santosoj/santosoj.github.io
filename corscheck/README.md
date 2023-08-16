@@ -4,7 +4,7 @@
 
 - [`html/`](html/) ― The page loading the external script.
 - [`script/`](script/) ― The external script.
-    * The script is hosted on GitHub Pages for testing purposes: https://santosoj.github.io/app.js
+    * The script is hosted on GitHub Pages for testing purposes: https://santosoj.github.io/corscheck/script/app.js
 
 ## Testing
 
