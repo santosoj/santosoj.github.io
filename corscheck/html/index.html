@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+    <!-- <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="images/favicon.png" /> -->
+  </head>
+
+  <body>
+    <script src="https://santosoj.github.io/app.js"></script>
+    <script>
+      window.onerror = (event, source, lineno, colno, error) => {
+        let capture = {};
+        if (Error.captureStackTrace) {
+          Error.captureStackTrace(capture);
+        }
+
+        console.log('window.onerror');
+        console.log(`  event: ${event}`);
+        console.log(`  source: ${source}`);
+        console.log(`  lineno: ${lineno}`);
+        console.log(`  colno: ${colno}`);
+        console.log(`  error: ${error}`);
+        console.log(`  new Error().stack: "${new Error().stack}"`);
+        if (Error.captureStackTrace) {
+          console.log(`  using captureStackTrace: "${capture.stack}"`);
+        }
+      };
+      foo();
+    </script>
+    <h1>ssdfdfx</h1>
+  </body>
+</html>
